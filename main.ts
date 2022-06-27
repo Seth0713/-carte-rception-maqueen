@@ -14,12 +14,10 @@ basic.forever(function () {
             . # . . .
             . . # . .
             `)
-        basic.showNumber(Recep)
     }
     if (Recep == 2) {
         maqueen.motorStop(maqueen.Motors.All)
         maqueen.motorRun(maqueen.Motors.M1, maqueen.Dir.CW, 100)
-        basic.showNumber(Recep)
         basic.showLeds(`
             . . # . .
             . . . # .
@@ -31,7 +29,6 @@ basic.forever(function () {
     if (Recep == 3) {
         maqueen.motorStop(maqueen.Motors.All)
         maqueen.motorRun(maqueen.Motors.All, maqueen.Dir.CW, 100)
-        basic.showNumber(Recep)
         basic.showLeds(`
             . . # . .
             . # # # .
